@@ -1,0 +1,68 @@
+{
+  "target_column": "Delivery_Time_min",
+  "feature_columns": [
+    "Distance_km",
+    "Weather",
+    "Traffic_Level",
+    "Time_of_Day",
+    "Vehicle_Type",
+    "Preparation_Time_min",
+    "Courier_Experience_yrs"
+  ],
+  "numeric_features": [
+    "Distance_km",
+    "Preparation_Time_min",
+    "Courier_Experience_yrs"
+  ],
+  "categorical_features": [
+    "Weather",
+    "Traffic_Level",
+    "Time_of_Day",
+    "Vehicle_Type"
+  ],
+  "removed_identifier_columns": [
+    "Order_ID"
+  ],
+  "train_rows": 800,
+  "test_rows": 200,
+  "metrics": {
+    "linear_regression": {
+      "mae": 5.899168698353487,
+      "rmse": 8.826470149873378,
+      "mape_percent": 10.407452977801942,
+      "r2": 0.8261894538886113
+    },
+    "decision_tree_shallow": {
+      "mae": 8.773607093778315,
+      "rmse": 12.031627475295997,
+      "mape_percent": 17.53172979598574,
+      "r2": 0.677038492151666
+    }
+  },
+  "cross_validation": {
+    "Linear Regression": {
+      "CV MAE Mean": 6.548408989690765,
+      "CV MAE Std": 0.6747070411724694,
+      "CV R2 Mean": 0.7729126282900258,
+      "CV R2 Std": 0.04930463590134914
+    },
+    "Decision Tree": {
+      "CV MAE Mean": 9.223127806873096,
+      "CV MAE Std": 0.7055142343712706,
+      "CV R2 Mean": 0.6545895065924914,
+      "CV R2 Std": 0.04264702184935144
+    }
+  },
+  "order_id_experiment": {
+    "Linear Regression + Order_ID": {
+      "MAE": 5.913402004314551,
+      "RMSE": 8.85541546913499,
+      "R2 Score": 0.825047604216602
+    },
+    "Linear Regression without Order_ID": {
+      "MAE": 5.899168698353487,
+      "RMSE": 8.826470149873378,
+      "R2 Score": 0.8261894538886113
+    }
+  }
+}
