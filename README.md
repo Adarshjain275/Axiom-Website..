@@ -36,18 +36,13 @@ Instead of focusing solely on prediction, the project emphasizes **model compari
 
 ## Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-Learn
-* Google Colab / Jupyter Notebook
+* Python * Pandas * NumPy * Matplotlib * Scikit-Learn * Google Colab 
 
 ---
 
 ## Workflow
 
-Dataset → Preprocessing → EDA → Model Training → Evaluation → Cross Validation → Explainability → Prediction
+Dataset → Preprocessing → EDA → Model Training → Evaluation → Cross Validation(model comparison) → Explainability → Prediction
 
 ---
 
@@ -141,7 +136,7 @@ These insights can support better delivery planning and customer ETA estimation.
 
 ## Actual vs Predicted Results
 
-![Prediction Results](images/actual_vs_predicted.png)
+![Prediction Results](model_comparison_dashboard.png)
 
 ---
 
