@@ -12,6 +12,15 @@ Machine Learning pipeline for estimating food delivery duration using operationa
 
 ---
 
+#### Preprocessing and Modelling Pipeline
+
+
+```markdown
+![Pipeline](complete_ML_pipeline.png)
+```
+
+---
+
 ## Problem Statement
 
 Accurate delivery time estimation is essential for improving customer experience and optimizing delivery operations.
@@ -85,32 +94,24 @@ EDA was performed to understand:
 
 ### Delivery Time Distribution
 
-```md
-(Add image here)
-```
+
 
 ```markdown
-![Distribution](images/delivery_distribution.png)
+![Distribution](distribution_del_time.png)
 ```
 
 ### Relationship Between Features and Delivery Time
 
-```md
-(Add image here)
-```
 
 ```markdown
-![Relationships](images/feature_relationships.png)
+![Relationships](EDA2.png)
 ```
 
 ### Correlation Analysis
 
-```md
-(Add image here)
-```
 
 ```markdown
-![Heatmap](images/correlation_heatmap.png)
+![Heatmap](correlation_heatmap.png)
 ```
 
 ---
@@ -129,12 +130,9 @@ The preprocessing pipeline included:
 
 ### Preprocessing Pipeline
 
-```md
-(Add image here)
-```
 
 ```markdown
-![Pipeline](images/preprocessing_pipeline.png)
+![Pipeline](preprocessing_pipeline.png)
 ```
 
 ---
@@ -177,11 +175,11 @@ Linear Regression consistently outperformed Decision Tree across all major evalu
 ## Model Comparison Dashboard
 
 ```md
-(Add image here)
+ error_matrix_comparison.png
 ```
 
 ```markdown
-![Dashboard](images/model_comparison_dashboard.png)
+![Dashboard](R2_score_comparison.png)
 ```
 
 ---
@@ -189,11 +187,11 @@ Linear Regression consistently outperformed Decision Tree across all major evalu
 # Actual vs Predicted Results
 
 ```md
-(Add image here)
+ LR(actual_vs_predicted).png
 ```
 
 ```markdown
-![Prediction](images/actual_vs_predicted.png)
+![Prediction](DT_actual_vs_predicted.png)
 ```
 
 ---
@@ -219,18 +217,6 @@ The strongest contributors were:
 * Traffic level
 * Weather conditions
 * Preparation time
-
-### Feature Influence Plot
-
-```md
-(Add image here)
-```
-
-```markdown
-![Feature Importance](images/feature_importance.png)
-```
-
----
 
 # Key Findings
 
