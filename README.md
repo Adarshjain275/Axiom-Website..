@@ -34,11 +34,6 @@ Instead of focusing solely on prediction, the project emphasizes **model compari
 
 ---
 
-## Tech Stack
-
-* Python * Pandas * NumPy * Matplotlib * Scikit-Learn * Google Colab 
-
----
 
 ## Workflow
 
@@ -124,8 +119,13 @@ These insights can support better delivery planning and customer ETA estimation.
 
 ## Comparison Dashboard
 
-![Model Comparison](images/model_comparison_dashboard.png)
+<p align="center">
+  <img src="model_comparison_dashboard.png" width="900">
+</p>
 
+<p align="center">
+<b>Comparison dashboard showing evaluation metrics and prediction performance.</b>
+</p>
 ---
 
 ## Feature Influence Analysis
@@ -161,6 +161,4 @@ These insights can support better delivery planning and customer ETA estimation.
 * Route optimization features
 * Integration with live delivery datasets
 
-
-Netaji Subhas University of Technology (NSUT)
 
